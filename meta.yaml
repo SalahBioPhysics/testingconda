@@ -10,5 +10,9 @@ requirements:
   build:
     - gcc testing123.c -o foo
 
-
+  run:
+    - python 2.7*
+    - pyqt
+    - numpy
+    - gcc
 
