@@ -1,6 +1,6 @@
 package:
   name: myconda
-  version: "1.0.0"
+  version: "2.0.0"
 
 source:
   git_rev: v1.0.0
@@ -11,8 +11,5 @@ requirements:
     - gcc testing123.c -o foo
 
   run:
-    - python 2.7*
-    - pyqt
-    - numpy
     - gcc
 
